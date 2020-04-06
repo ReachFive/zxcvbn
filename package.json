@@ -1,11 +1,11 @@
 {
-  "name": "zxcvbn",
-  "version": "4.4.2",
-  "description": "realistic password strength estimation",
-  "author": "Dan Wheeler",
+  "name": "@reachfive/zxcvbn",
+  "version": "1.0.0-alpha.2",
+  "description": "fork of Dropbox's zxcvbn with additional frequency data",
+  "author": "Reachfive",
   "license": "MIT",
   "main": "lib/main.js",
-  "repository": "dropbox/zxcvbn",
+  "repository": "ReachFive/zxcvbn",  
   "scripts": {
     "test": "coffeetape test/*.coffee | faucet",
     "test-saucelabs": "zuul -- test/*.coffee",
